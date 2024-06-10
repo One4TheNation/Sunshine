@@ -5,6 +5,63 @@
     text-align: center;
 }
 
-.titlepro{
+.titlepro {
     text-align: left;
+}
+
+.row-6 {
+    border-radius: 2%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgrey;
+    margin: 25px;
+}
+
+.row-6 h4 {
+    margin-left: 25px;
+    text-align: left;
+}
+
+.row-6 h2 {
+    margin-left: 25px;
+    text-align: left;
+}
+
+.btn-primary {
+    background: rgba(62, 62, 200, 1);
+}
+
+.list-group-item.active {
+    background-color: rgba(62, 62, 200, 1);
+}
+
+.aside {
+    margin: 25px;
+}
+
+.aside h4 {
+    margin-left: 15px;
+}
+
+.list-group {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.list-group-item.list-group-item-action {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 2%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgrey;
+}
+
+.fone {
+    margin-top: 150px;
+    padding: 15px;
+    background: rgb(230, 230, 230);
+    background: linear-gradient(90deg, rgba(230, 230, 230, 1) 0%, rgba(255, 255, 255, 1) 42%, rgba(212, 248, 255, 1) 100%);
+    color: black;
+    text-align: center;
 }
