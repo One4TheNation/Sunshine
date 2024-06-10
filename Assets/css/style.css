@@ -1,0 +1,10 @@
+.hone {
+    background: rgb(6, 0, 111);
+    background: linear-gradient(90deg, rgba(6, 0, 111, 1) 0%, rgba(62, 62, 200, 1) 42%, rgba(0, 212, 255, 1) 100%);
+    color: white;
+    text-align: center;
+}
+
+.titlepro{
+    text-align: left;
+}
