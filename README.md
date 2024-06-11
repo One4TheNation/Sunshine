@@ -1,5 +1,5 @@
 # Weather
-![Challenge 6 Website](/Challenges/Weather/Assets/images/Screen%20Shot%202024-06-11%20at%2012.34.11%20AM.png);
+![Challenge 6 Website](./Assets/images/Screen%20Shot%202024-06-11%20at%2012.34.11%20AM.png);
 Weather APi Challenge 6
 
 My Challenge Work Process
