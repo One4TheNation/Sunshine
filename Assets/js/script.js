@@ -5,7 +5,7 @@ const holderEl = document.querySelector("#holder");
 const town = document.querySelector("#town")
 
 function getLocation(cityName) {
-    const url = `http://api.openweathermap.org/geo/1.0/direct?q=${cityName}&units=imperial&appid=${apiKey}`
+    const url = `https://api.openweathermap.org/geo/1.0/direct?q=${cityName}&units=imperial&appid=${apiKey}`
 
     fetch(url).then(function (response) {
         return response.json();
