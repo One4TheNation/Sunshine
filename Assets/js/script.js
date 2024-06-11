@@ -5,7 +5,7 @@ const holderEl = document.querySelector("#holder");
 const town = document.querySelector("#town")
 
 function getLocation(cityName) {
-    const url = `http://api.openweathermap.org/geo/1.0/direct?q=${cityName}&appid=${apiKey}`
+    const url = `http://api.openweathermap.org/geo/1.0/direct?q=${cityName}&units=imperial&appid=${apiKey}`
 
     fetch(url).then(function (response) {
         return response.json();
@@ -18,7 +18,7 @@ function getLocation(cityName) {
 }
 
 function getWeather(lat, lon, city) {
-    const url = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${apiKey}`;
+    const url = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&units=imperial&appid=${apiKey}`;
 
     fetch(url).then(function (response) {
         return response.json();
