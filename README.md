@@ -10,8 +10,7 @@ My Challenge Work Process
     4. Made sure to link all files together in the body
     5. Used api to define & show weather
 
-![Project Portfolio Website]()
-
+![Challenge 6 Website](/Challenges/Weather/Assets/images/Screen%20Shot%202024-06-11%20at%2012.34.11%20AM.png);
     A. Made sure to use right syntex structure to have code be more presentable (cleaned up)
     B. Consolidated consolidated code and expanded on classes 
 
