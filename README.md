@@ -1,5 +1,5 @@
 # Weather
-
+![Challenge 6 Website](/Challenges/Weather/Assets/images/Screen%20Shot%202024-06-11%20at%2012.34.11%20AM.png);
 Weather APi Challenge 6
 
 My Challenge Work Process
@@ -9,9 +9,7 @@ My Challenge Work Process
     3. Modified bootstrap with css to style effectively
     4. Made sure to link all files together in the body
     5. Used api to define & show weather
-
-![Challenge 6 Website](/Challenges/Weather/Assets/images/Screen%20Shot%202024-06-11%20at%2012.34.11%20AM.png);
-    A. Made sure to use right syntex structure to have code be more presentable (cleaned up)
-    B. Consolidated consolidated code and expanded on classes 
+        A. Made sure to use right syntex structure to have code be more presentable (cleaned up)
+        B. Consolidated consolidated code and expanded on classes 
 
 [deployed link]()
