@@ -36,7 +36,16 @@ function getWeather(lat, lon, city) {
             <h4>Humidity: ${humidity}%</h4>
         </div>`
 
+        $("#today").empty()
         $("#today").append(hOne);
+
+        for (let i = 7; i < data.list.length; i = i + 8) {
+            const weatherData = data.list[i];
+
+            const html = `
+            <p>${weatherData.temp}</p>
+            `
+        }
 
     })
 }
@@ -73,6 +82,12 @@ $('#search-form').on('submit', function(event) {
     event.preventDefault();
 
     const cityName = $('#exampleInputLocation1').val().trim();
+
+    // get local storage arr
+
+    // add cityName to local storage arr 
+
+    // save arr into local storage
 
     getLocation(cityName)
 });
